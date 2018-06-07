@@ -29,6 +29,8 @@ Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+set clipboard=unnamed
+
 command WQ wq
 
 " An example for a vimrc file.
